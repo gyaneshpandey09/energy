@@ -28,6 +28,7 @@ Sub_metering_2           0.000112
 
 ![image](https://github.com/gyaneshpandey09/energy/assets/13755458/300a4409-9168-4540-9801-675ff8d29cfb)
 
-##Note:
-Original Dataset: https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set?resource=download
-The dataset checkinto the repository is a small subset of the original dataset. Had to be truncated due to the size limitations at github. 
+## Note:
+The dataset checkinto the repository is a small subset of the original dataset. Had to be truncated due to the size limitations at github.
+Original Dataset: https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set?resource=download. 
+ 
