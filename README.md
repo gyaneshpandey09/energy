@@ -3,6 +3,8 @@ Energy data exploration through Machine Learning models
 
 ![image](https://github.com/gyaneshpandey09/energy/assets/13755458/869dbe2e-a82f-4a97-abce-23f3c4020038)
 
+Original Dataset: https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set?resource=download. 
+
 | Datetime            | Global_active_power | Global_reactive_power | Voltage | Global_intensity | Sub_metering_1 | Sub_metering_2 | Sub_metering_3 |
 |---------------------|---------------------|-----------------------|---------|------------------|----------------|----------------|----------------|
 | 2006-12-16 17:24:00 | 4.216               | 0.418                 | 234.840 | 18.400           | 0.000          | 1.000          | 17.0           |
@@ -31,7 +33,13 @@ Energy data exploration through Machine Learning models
 
 ![image](https://github.com/gyaneshpandey09/energy/assets/13755458/300a4409-9168-4540-9801-675ff8d29cfb)
 
+### Features
+- There is a cluster formation along the PC1 component. The gradient observed from left-to-right suggest that PC1 is capturing a significant variance in the dataset.
+- Based on the color coding, there seems to be increasing value from left to right. Also, there are atleast 5 clusters identified.
+- PC2 is more compabt compared to PC1, implying that there might be less variance due to PC2.
+- The PC Analysis explains that there are underlying factors or combinations which explain the variance. The factors are captured by Principal Components
+
+
 ## Note:
 The dataset checkinto the repository is a small subset of the original dataset. Had to be truncated due to the size limitations at github.
-Original Dataset: https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set?resource=download. 
  
